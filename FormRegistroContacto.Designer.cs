@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormRegistroContacto));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -58,9 +59,11 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(164, 127);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(161, 84);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(71, 72);
+            this.pictureBox1.Size = new System.Drawing.Size(74, 74);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 19;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -68,7 +71,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(236, 169);
+            this.label9.Location = new System.Drawing.Point(236, 130);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(345, 20);
             this.label9.TabIndex = 18;
@@ -79,7 +82,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(235, 140);
+            this.label8.Location = new System.Drawing.Point(235, 101);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(227, 29);
             this.label8.TabIndex = 17;
@@ -236,9 +239,11 @@
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "Masculino",
-            "Femenino",
-            "No Especifica"});
+            "Madre",
+            "Padre",
+            "Hernano(a)",
+            "Esposo(a)",
+            "Otro"});
             this.comboBox1.Location = new System.Drawing.Point(164, 669);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(161, 28);

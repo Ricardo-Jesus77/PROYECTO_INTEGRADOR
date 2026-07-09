@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormRegsitroPaciente));
             this.Nombre = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -50,28 +51,28 @@
             // 
             // Nombre
             // 
-            this.Nombre.Location = new System.Drawing.Point(164, 333);
+            this.Nombre.Location = new System.Drawing.Point(164, 299);
             this.Nombre.Name = "Nombre";
             this.Nombre.Size = new System.Drawing.Size(161, 26);
             this.Nombre.TabIndex = 0;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(164, 417);
+            this.textBox2.Location = new System.Drawing.Point(164, 383);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(161, 26);
             this.textBox2.TabIndex = 1;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(455, 335);
+            this.textBox3.Location = new System.Drawing.Point(455, 301);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(161, 26);
             this.textBox3.TabIndex = 2;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(164, 504);
+            this.textBox4.Location = new System.Drawing.Point(164, 470);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(161, 26);
             this.textBox4.TabIndex = 3;
@@ -83,7 +84,7 @@
             "Masculino",
             "Femenino",
             "No Especifica"});
-            this.comboBox1.Location = new System.Drawing.Point(455, 416);
+            this.comboBox1.Location = new System.Drawing.Point(455, 382);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(161, 28);
             this.comboBox1.TabIndex = 4;
@@ -97,7 +98,7 @@
             "Casado",
             "Union Libre",
             "Viduo"});
-            this.comboBox2.Location = new System.Drawing.Point(455, 504);
+            this.comboBox2.Location = new System.Drawing.Point(455, 470);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(161, 28);
             this.comboBox2.TabIndex = 5;
@@ -107,7 +108,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label1.Location = new System.Drawing.Point(164, 310);
+            this.label1.Location = new System.Drawing.Point(164, 276);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(83, 20);
             this.label1.TabIndex = 6;
@@ -118,7 +119,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label2.Location = new System.Drawing.Point(164, 394);
+            this.label2.Location = new System.Drawing.Point(164, 360);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(159, 20);
             this.label2.TabIndex = 7;
@@ -129,7 +130,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label3.Location = new System.Drawing.Point(164, 481);
+            this.label3.Location = new System.Drawing.Point(164, 447);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(100, 20);
             this.label3.TabIndex = 8;
@@ -140,7 +141,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label4.Location = new System.Drawing.Point(459, 312);
+            this.label4.Location = new System.Drawing.Point(459, 278);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(83, 20);
             this.label4.TabIndex = 9;
@@ -151,7 +152,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label5.Location = new System.Drawing.Point(451, 393);
+            this.label5.Location = new System.Drawing.Point(451, 359);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(63, 20);
             this.label5.TabIndex = 10;
@@ -162,7 +163,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label6.Location = new System.Drawing.Point(451, 481);
+            this.label6.Location = new System.Drawing.Point(451, 447);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(91, 20);
             this.label6.TabIndex = 11;
@@ -196,28 +197,33 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(253, 182);
+            this.label8.Location = new System.Drawing.Point(251, 137);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(219, 29);
             this.label8.TabIndex = 14;
             this.label8.Text = "Datos Personales";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(254, 211);
+            this.label9.Location = new System.Drawing.Point(252, 166);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(351, 20);
             this.label9.TabIndex = 15;
             this.label9.Text = "Información basica de identificacion del paciente";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(182, 169);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(180, 124);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(71, 72);
+            this.pictureBox1.Size = new System.Drawing.Size(74, 74);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 16;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // FormRegsitroPaciente
             // 
