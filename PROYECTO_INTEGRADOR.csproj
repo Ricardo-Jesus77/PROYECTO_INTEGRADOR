@@ -62,6 +62,34 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>
+    <Compile Include="FormRegistroContacto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegistroContacto.Designer.cs">
+      <DependentUpon>FormRegistroContacto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRegistroHistorialMedico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegistroHistorialMedico.Designer.cs">
+      <DependentUpon>FormRegistroHistorialMedico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRegsitroPaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegsitroPaciente.Designer.cs">
+      <DependentUpon>FormRegsitroPaciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormRegistroContacto.resx">
+      <DependentUpon>FormRegistroContacto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRegistroHistorialMedico.resx">
+      <DependentUpon>FormRegistroHistorialMedico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRegsitroPaciente.resx">
+      <DependentUpon>FormRegsitroPaciente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
