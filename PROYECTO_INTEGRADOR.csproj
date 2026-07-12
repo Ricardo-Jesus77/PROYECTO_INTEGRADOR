@@ -64,6 +64,12 @@
     <Compile Include="FormRegistroHistorialMedico.Designer.cs">
       <DependentUpon>FormRegistroHistorialMedico.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormRegistroUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegistroUsuario.Designer.cs">
+      <DependentUpon>FormRegistroUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormRegsitroPaciente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +83,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormRegistroHistorialMedico.resx">
       <DependentUpon>FormRegistroHistorialMedico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRegistroUsuario.resx">
+      <DependentUpon>FormRegistroUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormRegsitroPaciente.resx">
       <DependentUpon>FormRegsitroPaciente.cs</DependentUpon>
